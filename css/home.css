@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Goldman-Regular';
+    src: url('../fonts/Goldman-Regular.woff') format("woff"),
+    url('../fonts/Goldman-Regular.ttf') format("truetype"),
+    url('../fonts/Goldman-Regular.eot') format("embedded-opentype");
+}
+
+  html {
+    height: 100%;
+}
+  
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("../img/head.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* max-width: 780px; */
+}
+
+#interact-bar {
+    position: absolute;
+    top: 46px;
+    right: 5%;
+    height: 25px;
+    width: 100px;
+    /* margin-left: 50px; */
+    display:flex;
+}
+
+.img-btn {
+    width: 25px;
+    height: 25px;
+    margin: 0 25px 0 0;
+}
+
+.main-btn {
+    position: absolute;
+    top: 65%;
+    right: 12%;
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #D9D9D9;
+
+    font-family: 'Goldman-Regular';
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration:none;
+    color: #5b5b5b;;
+    
+}
