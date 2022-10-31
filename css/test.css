@@ -62,7 +62,6 @@ html {
 .nav a {
     height: 52px;
     /* background-color: #FDB663; */
-    color: #FDB663;
     font-family: Arial;
     font-size: 16px;
     font-weight: 900;
@@ -72,16 +71,29 @@ html {
     margin: 0;
     text-decoration: none;
     transition: 0.3s linear;
+    
 }
 
 .nav a:hover {
-    height: 40px;
+    height: 44px;
     background-color: #FDB663;
     color: #F9F5EB;
-    margin: 4px 0 8px 0;
+    margin: 4px 0 4px 0;
     line-height: 39px;
     text-decoration: none;
     border-radius: 44px;
+    
+}
+
+.nav-activate{
+    color: #FDB663;
+
+}
+
+.nav-inactivate{
+    background-color: #FDB663;
+    color: #F9F5EB;
+    border-radius: 20px;
 }
 
 footer {
