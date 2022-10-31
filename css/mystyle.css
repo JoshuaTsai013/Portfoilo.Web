@@ -30,24 +30,26 @@ html {
 }
 
 #icon-area {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 240px;
-    padding-top: 50px;
+    padding: 50px 0 0 0;
     background-color: #F9F5EB;
 }
 
 #icon-img {
-    margin: 35px 770px 15px 770px;
     width: 150px;
+    height: 1px;
 }
 
 #icon-img :hover{
     transform: rotate(360deg);
-    transition: 2s;
+    transition: 1.7s;
 }
 #icon-img :not(:hover){
     transform: rotate(0deg);
-    transition: 2s;
+    transition: 1s;
 }
 
 .nav-bg {
@@ -76,7 +78,7 @@ html {
     padding: 0 30px;
     margin: 0;
     text-decoration: none;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
     
 }
 
