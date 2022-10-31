@@ -14,14 +14,14 @@
     box-sizing: inherit;
 }
 
-body {
-    /* background-image: url("../img/wallpaper.jpg");
+/* body {
+    background-image: url("../img/wallpaper.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover; */
-}
+    background-size: cover;
+} */
 
 /* .bg {
 
@@ -36,6 +36,13 @@ body {
     display:flex;
 }
 
+.home-img {
+    position: absolute;
+    width: 40%;
+    top: 23%;
+    right: 8%;
+}
+
 .img-btn {
     width: 25px;
     height: 25px;
@@ -45,9 +52,9 @@ body {
 .main-btn {
     position: absolute;
     top: 45%;
-    left: 7%;
+    left: 9%;
     height: 40px;
-    width: 350px;
+    width: 400px;
     border-radius: 30px;
     padding: 10px 20px;
     background-color: #F9F5EB;
@@ -58,5 +65,4 @@ body {
     text-align: center;
     text-decoration:none;
     color: #FDB663;;
-    
 }

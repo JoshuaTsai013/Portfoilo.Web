@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-  }
+}
   
 *, *::before, *::after {
     box-sizing: inherit;
@@ -18,33 +18,34 @@ html {
 .container {
     margin: 0 auto;
     width: 1160px;
-    height: 1000px;
+    height: auto;
     background-color: #67AAE8;
 }
 
+/* header--------- */
+
 .Header {
     width: 100%;
-    /* display: flex;
-    flex-wrap: wrap; */
     background-color: #F2EAD6;
 }
 
-#icon {
+#icon-area {
     width: 100%;
     height: 240px;
+    padding-top: 50px;
     background-color: #F9F5EB;
 }
 
 #icon-img {
-    margin: 65px 770px 15px 770px;
+    margin: 35px 770px 15px 770px;
     width: 150px;
 }
 
-#icon :hover{
+#icon-img :hover{
     transform: rotate(360deg);
     transition: 2s;
 }
-#icon :not(:hover){
+#icon-img :not(:hover){
     transform: rotate(0deg);
     transition: 2s;
 }
@@ -101,6 +102,8 @@ html {
     border-radius: 20px;
 }
 
+/* footer--------- */
+
 footer {
     width: 100%;
     height: 59px;
@@ -145,3 +148,4 @@ footer {
     padding: 5px 8px;
     text-decoration:none;
 }
+
