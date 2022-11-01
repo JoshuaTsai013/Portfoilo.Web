@@ -1,0 +1,88 @@
+.item-area{
+    height: 100%;
+    padding-top: 60px;
+    background-color: #67AAE8;
+}
+
+
+.row1{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 0 120px;
+}
+
+.about-me{
+    width: 200px;
+    height: 100px;
+    font-family: 'Audiowide', cursive, sans-serif;    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 100px;
+    color: aliceblue;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+
+.about-bar{
+    width: 720px;
+    height: 4px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+.row2{
+    display: flex;
+    width: 100%;
+    height: 490px;
+    padding: 40px 120px;
+}
+
+.about-img{
+    width: 410px;
+    height: 410px;
+    border: 5px solid #FFC179;
+    border-radius: 410px;
+    background-color: aliceblue;
+
+
+}
+
+.introduce{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 510px;
+    height: 410px;
+}
+
+.introduce-bar1{
+    width: 430px;
+    height: 80px;
+    border: 5px solid #FFC179;
+    border-radius: 80px;
+    margin-left: auto;
+}
+
+
+.row3{
+    display: flex;
+    width: 100%;
+    height: 490px;
+    padding: 40px 120px;
+}
+
+.introduce-bar2{
+    width: 430px;
+    height: 80px;
+    border: 5px solid #FFC179;
+    border-radius: 80px;
+    margin-right: auto;
+}
+
+.blank-bar{
+    width: 100%;
+    height: 80px;
+}
