@@ -2,8 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
     padding-top: 60px;
-    background-color: #67AAE8;
+    /* background-color: #67AAE8; */
+    background-image: url("../img/IMG_5741.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top ;
+    background-size: 1160px;
 }
 
 .item{
