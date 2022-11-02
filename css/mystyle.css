@@ -35,6 +35,7 @@ html {
 .Header {
     width: 100%;
     background-color: #F2EAD6;
+    /* margin-bottom: 60px; */
 }
 
 #icon-area {
