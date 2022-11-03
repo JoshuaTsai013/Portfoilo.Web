@@ -4,7 +4,6 @@
     justify-content: space-around;
     width: 100%;
     padding-top: 60px;
-    /* background-color: #67AAE8; */
     background-image: url("../img/IMG_5748.PNG");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,18 +16,16 @@
     height: 400px;
     margin-bottom: 80px;
     background-color: #B1D4F4;
-    box-shadow: 10px 7px 7px rgb(60, 86, 128);
-
+    box-shadow: 10px 7px 7px#3c5680;
 }
 
 .shop-img{
     display: flex;
-
 }
 
 .shop-text{
     height: 80px;
-    font-family: 'Audiowide', cursive, sans-serif;
+    font-family: 'Audiowide', sans-serif;
     font-size: 30px;
     /* font-weight: 900; */
     text-align: center;

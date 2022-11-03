@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Goldman-Regular';
-    src: url('../fonts/Goldman-Regular.woff') format("woff"),
-    url('../fonts/Goldman-Regular.ttf') format("truetype"),
-    url('../fonts/Goldman-Regular.eot') format("embedded-opentype");
-}
-
 html {
     box-sizing: border-box;
 }
@@ -69,8 +62,7 @@ html {
     width: 100%;
     height: 70px;
     margin: 0 auto;
-    
-    }
+}
 
 .nav {
     display: flex;
@@ -83,8 +75,9 @@ html {
 .nav a {
     width: 165px;
     height: 70px;
-    font-family: 'Goldman-Regular';
-    font-size: 16px;
+    font-family: 'Righteous', sans-serif;
+
+    font-size: 20px;
     text-align: center;
     line-height: 70px;
     padding: 0 30px;
@@ -106,7 +99,6 @@ html {
     line-height: 50px;
     text-decoration: none;
     border-radius: 44px;
-    
 }
 
 .nav-activate{
@@ -126,7 +118,7 @@ footer {
     width: 100%;
     height: 100px;
     margin: 0;
-    padding: 17px 14%;
+    padding: 26px 14% 17px;
     background-color: #F9F5EB;
 
     display: flex;
@@ -138,15 +130,15 @@ footer {
     height: 25px;
     text-align: center;
     color: #FDB663;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 25px;
-    font-family: Arial;
+    font-family: 'Audiowide', sans-serif;
     margin: auto 0;
 
 }
 
 #contact-bar {
-    height: 25px;
+    height: 35px;
     margin: auto 0;
     display:flex;
 }
@@ -154,18 +146,8 @@ footer {
 .img-btn {
     width: 35px;
     height: 35px;
-    margin: 0 13px 0 0;
+    margin: auto 13px auto 0;
 }
 
-.btn {
-    height: 25px;
-    font-size: 12px;
-    font-weight: 700;
-    border: 1px solid #5b5b5b;
-    border-radius: 3px;
-    font-family: Arial;
-    color: #5b5b5b;
-    padding: 5px 8px;
-    text-decoration:none;
-}
+
 
