@@ -23,6 +23,17 @@
     display: flex;
 }
 
+.shop-img :hover{
+    /* border: 1px solid #4775A0;
+    border-radius: 1px; */
+    scale: 1.15;
+    transition: 0.3s;
+}
+.shop-img :not(:hover){
+
+    transition: 0.2s linear;
+}
+
 .shop-text{
     height: 80px;
     font-family: 'Audiowide', sans-serif;
