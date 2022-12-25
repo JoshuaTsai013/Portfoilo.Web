@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shop</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css/shop.css">
 
@@ -15,23 +15,27 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Sans&family=Noto+Sans+TC:wght@300;400;500&family=Righteous&display=swap" rel="stylesheet"></head>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Sans&family=Noto+Sans+TC:wght@300;400;500&family=Righteous&display=swap" rel="stylesheet">
+</head>
 <body>
-    <div class="bg">
-        <header class="Header">
+    <header class="color-beige container-fluid p-0">
 
-            <div id="icon-area">
-                <a href="index.html" id="icon-img"><img src="img/icon2.PNG" alt="icon" width="150px"></a>
-            </div>
-            
-            <div class="nav">
-                <a href="portfoilo.html" class="nav-activate">PORTFOLIO</a>
-                <a href="shop.html" class="nav-inactivate">NFT SHOP</a>
-                <a href="about.html" class="nav-activate">ABOUT ME</a>
-            </div>
-            
-        </header>
-            
+        <div id="icon-area">
+            <a href="index.html" id="icon-img"><img src="img/icon2.PNG" alt="icon" width="150px"></a>
+        </div>
+        
+        <div class="row no-gutters color-light-yellow">
+            <div class="col-md-2"></div>
+            <a href="portfoilo.html" class="col-md-2 nav-item nav-activate">PORTFOLIO</a>
+            <div class="col-md-1"></div>
+            <a href="shop.html" class="col-md-2 nav-item nav-inactivate">NFT SHOP</a>
+            <div class="col-md-1"></div>
+            <a href="about.html" class="col-md-2 nav-item nav-activate">ABOUT ME</a>
+            <div class="col-md-2"></div>
+        </div>
+        
+    </header>
+    <div class="color-blue">           
         <div class="container">
             <div class="item-area">
                 <div class="item"><a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/113989463623643430530239388810413568261448917175329294255205588891183930671105" target="_blank" class="shop-img">
@@ -62,6 +66,7 @@
         </div>
     </div>
 
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 <footer>

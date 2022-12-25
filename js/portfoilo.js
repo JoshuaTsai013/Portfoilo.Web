@@ -1,8 +1,9 @@
 $(document).ready(function(){
     $('.grid').masonry({
         itemSelector: '.grid-item',
-        columnWidth: 360,
-        gutter: 40
+        columnWidth: '.grid-sizer',
+        percentPosition: true
+
     });
 
     $('.grid').imagesLoaded().progress( function() {

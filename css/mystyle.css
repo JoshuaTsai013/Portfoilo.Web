@@ -11,24 +11,18 @@ html {
     height: 0px;
 }
 
-.bg {
+.color-blue {
     background-color: #67AAE8;   
-}
-
-.container {
-    margin: 0 auto;
-    width: 1160px;
-    height: auto;
-    background-color: #67AAE8;
-    
 }
 
 /* header--------- */
 
-.Header {
-    width: 100%;
+.color-beige {
+    background-color: #F9F5EB;
+}
+
+.color-light-yellow {
     background-color: #F2EAD6;
-    /* margin-bottom: 60px; */
 }
 
 #icon-area {
@@ -64,15 +58,7 @@ html {
     margin: 0 auto;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-around;
-    width: 1160px;
-    height: 70px;
-    margin: 0 auto;
-}
-
-.nav a {
+.nav-item {
     width: 165px;
     height: 70px;
     font-family: 'Righteous', sans-serif;
@@ -81,7 +67,7 @@ html {
     text-align: center;
     line-height: 70px;
     padding: 0 30px;
-    margin: 0;
+    margin: 0 auto;
     text-decoration: none;
     transition: 0.2s linear;
 
@@ -91,11 +77,11 @@ html {
     user-select:none;
 }
 
-.nav a:hover {
+.nav-item:hover {
     height: 54px;
     background-color: #FDB663;
     color: #F9F5EB;
-    margin: 8px 0 8px 0;
+    margin: 8px auto;
     line-height: 50px;
     text-decoration: none;
     border-radius: 44px;
@@ -103,7 +89,6 @@ html {
 
 .nav-activate{
     color: #FDB663;
-
 }
 
 .nav-inactivate{
