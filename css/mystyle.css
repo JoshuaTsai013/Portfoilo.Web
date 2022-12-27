@@ -1,9 +1,9 @@
-html {
-    box-sizing: border-box;
+html{
+	width: 100%;
 }
-  
-*, *::before, *::after {
-    box-sizing: inherit;
+
+* {
+	box-sizing: border-box;
 }
 
 .blank {
@@ -58,7 +58,7 @@ html {
     margin: 0 auto;
 }
 
-.nav-item {
+.mynav-item {
     width: 165px;
     height: 70px;
     font-family: 'Righteous', sans-serif;
@@ -77,7 +77,7 @@ html {
     user-select:none;
 }
 
-.nav-item:hover {
+.mynav-item:hover {
     height: 54px;
     background-color: #FDB663;
     color: #F9F5EB;
@@ -135,5 +135,10 @@ footer {
     margin: auto 13px auto 0;
 }
 
-
-
+@media (min-width: 768px) {
+    /*nav選單*/
+        .navbar{
+        padding-left:50px!important;
+        padding-right:50px!important; 
+    }
+    }

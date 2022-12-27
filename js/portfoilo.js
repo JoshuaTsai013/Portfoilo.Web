@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    $('.grid').masonry({
-        itemSelector: '.grid-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true
+    // $('.grid').masonry({
+    //     itemSelector: '.grid-item',
+    //     columnWidth: '.grid-sizer',
+    //     percentPosition: true
 
-    });
+    // });
 
-    $('.grid').imagesLoaded().progress( function() {
-        $('.grid').masonry('layout');
+    $('.row').imagesLoaded().progress( function() {
+        $('.row').masonry('layout');
       });
 });
