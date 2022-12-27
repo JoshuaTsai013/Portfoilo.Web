@@ -27,15 +27,16 @@ html{
 
 #icon-area {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     width: 100%;
-    height: 240px;
-    padding: 50px 0 0 0;
+    height: 220px;
+    padding-top: 50px;
+    margin: 0;
     background-color: #F9F5EB;
 }
 
 #icon-img {
-    width: 150px;
+    width: 170px;
     height: 1px;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -52,37 +53,50 @@ html{
     transition: 1s;
 }
 
-.nav-bg {
-    width: 100%;
+.nav-custom {
+
     height: 70px;
-    margin: 0 auto;
+    margin-left: 0;
+
 }
 
-.mynav{
+.mynav-text{
+    display: block;
+    width: 165px;
+    height: 70px;
+    font-family: 'Righteous', sans-serif;
+
     font-size: 20px;
     text-align: center;
     line-height: 70px;
+    padding: 0 30px;
+    margin: 0 auto;
+    border-radius: 20px;
 
     text-decoration: none;
+    transition: 0.2s linear;
+
     -webkit-user-select:none;
     -moz-user-select:none;
     -o-user-select:none;
     user-select:none;
 }
 
-.mynav-item {
+/* .mynav-item {
     width: 165px;
     height: 70px;
     font-family: 'Righteous', sans-serif;
-
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
     
     padding: 0 30px;
     margin: 0 auto;
     
     transition: 0.2s linear;
-}
+} */
 
-.mynav-item:hover {
+.mynav-text:hover {
     height: 54px;
     background-color: #FDB663;
     color: #F9F5EB;
@@ -92,16 +106,19 @@ html{
     border-radius: 44px;
 }
 
+/* .mynav-item a {
+    display: block;
+    height: 100%;
+} */
+
 .nav-activate{
+    
     color: #FDB663;
 }
 
 .nav-inactivate{
-    width: 165px;
-    height: 70px;
     background-color: #FDB663;
     color: #F9F5EB;
-    border-radius: 20px;
 }
 
 /* footer--------- */
@@ -142,11 +159,3 @@ footer {
     margin: auto 13px auto 0;
 }
 
-  /*nav選單*/
-
-/* @media (min-width: 768px) {
-        .navbar{
-        padding-left:50px!important;
-        padding-right:50px!important; 
-    }
-} */

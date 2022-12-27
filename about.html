@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>about</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/mystyle.css">
-    <link rel="stylesheet" href="css/about.css">
-    
+
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="bookmark" href="img/favicon.ico">
     <link rel="apple-touch-icon" href="img/favicon.ico">
@@ -16,22 +13,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Sans+TC:wght@300;400;500&family=Noto+Sans:wght@400;500&family=Righteous&display=swap" rel="stylesheet"><body>
-        
-    <div class="bg">
-        <header class="Header">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/about.css">
 
-            <div id="icon-area">
-                <a href="index.html" id="icon-img"><img src="img/icon2.PNG" alt="icon" width="150px"></a>
-            </div>
+    <script src="js/jquery-3.6.1.min.js"></script>
+
+</head>
+<body>
+    <div id="icon-area">
+        <a href="index.html" id="icon-img"><img src="img/icon2.PNG" alt="icon" width="150px"></a>
+    </div>
+    
+    <!-- 漢堡選單 -->
+    <nav class="navbar navbar-expand-md sticky-top color-light-yellow nav-custom">	
+        <div></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="col-md-2"></li>
+            <li class="nav-item col-md-2 mynav-item"><a href="portfoilo.html" class="mynav-text nav-activate">PORTFOLIO</a></li>
+            <li class="col-md-1"></li>
+            <li class="nav-item col-md-2 mynav-item"><a href="shop.html" class="mynav-text nav-activate">NFT SHOP</a></li>
+            <li class="col-md-1"></li>
+            <li class="nav-item col-md-2 mynav-item"><a href="about.html" class="mynav-text nav-inactivate">ABOUT ME</a></li>
+            <li class="col-md-2"></li>
+        </ul> 
+    </div>
+
+    </nav>
             
-            <div class="nav-bg">
-                <a href="portfoilo.html" class="mynav-item nav-activate">PORTFOLIO</a>
-                <a href="shop.html" class="mynav-item nav-activate">NFT SHOP</a>
-                <a href="about.html" class="mynav-item nav-inactivate">ABOUT ME</a>
-            </div>
-            
-        </header>
-            
+    <div class="color-blue">
         <div class="container">
             <div class="item-area">
                 <div class="title-row">
@@ -67,6 +82,7 @@
             </div>
         </div>
     </div>
+</div>
 
 </body>
 
