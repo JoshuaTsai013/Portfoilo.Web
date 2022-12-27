@@ -58,23 +58,28 @@ html{
     margin: 0 auto;
 }
 
+.mynav{
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+
+    text-decoration: none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+
 .mynav-item {
     width: 165px;
     height: 70px;
     font-family: 'Righteous', sans-serif;
 
-    font-size: 20px;
-    text-align: center;
-    line-height: 70px;
+    
     padding: 0 30px;
     margin: 0 auto;
-    text-decoration: none;
+    
     transition: 0.2s linear;
-
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -o-user-select:none;
-    user-select:none;
 }
 
 .mynav-item:hover {
@@ -92,6 +97,8 @@ html{
 }
 
 .nav-inactivate{
+    width: 165px;
+    height: 70px;
     background-color: #FDB663;
     color: #F9F5EB;
     border-radius: 20px;
@@ -135,10 +142,11 @@ footer {
     margin: auto 13px auto 0;
 }
 
-@media (min-width: 768px) {
-    /*nav選單*/
+  /*nav選單*/
+
+/* @media (min-width: 768px) {
         .navbar{
         padding-left:50px!important;
         padding-right:50px!important; 
     }
-    }
+} */
