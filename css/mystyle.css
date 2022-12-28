@@ -53,15 +53,11 @@ html{
     transition: 1s;
 }
 
-.burger-custom {
-    
-}
-
 .nav-custom {
 
     height: 70px;
     margin-left: 0;
-    position: sticky;
+    /* position: sticky; */
 
 }
 
@@ -116,12 +112,12 @@ html{
     height: 100%;
 } */
 
-.nav-activate{
+.nav-inactivate{
     
     color: #FDB663;
 }
 
-.nav-inactivate{
+.nav-activate{
     background-color: #FDB663;
     color: #F9F5EB;
 }
