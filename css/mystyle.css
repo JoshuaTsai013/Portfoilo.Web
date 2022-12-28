@@ -4,6 +4,8 @@ html{
 
 * {
 	box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
 }
 
 .blank {
@@ -15,8 +17,6 @@ html{
     background-color: #67AAE8;   
 }
 
-/* header--------- */
-
 .color-beige {
     background-color: #F9F5EB;
 }
@@ -24,6 +24,91 @@ html{
 .color-light-yellow {
     background-color: #F2EAD6;
 }
+
+/* header--------- */
+  
+  /* Icon 1 */
+  
+#nav-icon3 {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+  
+#nav-icon3 span {
+    display: block;
+    position: absolute;
+    height: 8px;
+    width: 80%;
+    background: #d3531a;
+    border-radius: 8px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+  
+  /* Icon 3 */
+  
+#nav-icon3 span:nth-child(1) {
+    top: 0px;
+}
+  
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+    top: 16px;
+}
+  
+#nav-icon3 span:nth-child(4) {
+    top: 32px;
+}
+  
+#nav-icon3.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+  
+#nav-icon3.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+  
+#nav-icon3.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+  
+#nav-icon3.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.burger-custom {
+    border: 0;
+    height: 54px;
+}
+
 
 #icon-area {
     display: flex;
@@ -54,11 +139,8 @@ html{
 }
 
 .nav-custom {
-
     height: 70px;
     margin-left: 0;
-    /* position: sticky; */
-
 }
 
 .mynav-text{
@@ -83,20 +165,6 @@ html{
     user-select:none;
 }
 
-/* .mynav-item {
-    width: 165px;
-    height: 70px;
-    font-family: 'Righteous', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    line-height: 70px;
-    
-    padding: 0 30px;
-    margin: 0 auto;
-    
-    transition: 0.2s linear;
-} */
-
 .mynav-text:hover {
     height: 54px;
     background-color: #FDB663;
@@ -106,11 +174,6 @@ html{
     text-decoration: none;
     border-radius: 44px;
 }
-
-/* .mynav-item a {
-    display: block;
-    height: 100%;
-} */
 
 .nav-inactivate{
     
