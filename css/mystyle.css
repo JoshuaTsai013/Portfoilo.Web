@@ -17,6 +17,11 @@ html{
     background-color: #67AAE8;   
 }
 
+.color-light-blue {
+    background-color: #BFDAFD;   
+}
+
+
 .color-beige {
     background-color: #F9F5EB;
 }
@@ -191,7 +196,7 @@ footer {
     width: 100%;
     height: 100px;
     margin: 0;
-    padding: 25px 14% 18px;
+    padding: 25px 6% 18px;
     background-color: #F9F5EB;
 
     display: flex;
@@ -221,5 +226,10 @@ footer {
     width: 35px;
     height: 35px;
     margin: auto 13px auto 0;
+}
+@media (min-width:768px) {
+    .footer {
+        padding: 25px 14% 18px;
+    }
 }
 

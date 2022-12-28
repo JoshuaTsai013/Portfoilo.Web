@@ -1,7 +1,8 @@
 .port-title{
     width: 100%;
     height: 210px;
-    padding-top: 60px;
+    padding-top: 50px;
+    margin-bottom: 20px;
     background-color: #67AAE8;
 
     font-family: 'Noto Sans',sans-serif;
@@ -19,12 +20,13 @@
 }
 
 .grid-item{
-    margin: 0 0 20px;
+    margin-bottom: 40px;
+    
 }
 
 .grid-item p{
     height: 20px;
-    margin: 8px 0 0;
+    margin: 8px 0 0px;
 
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
@@ -37,4 +39,5 @@
 .grid-item img{
     width: 100%;
     height: 100%;
+    box-shadow: 2px 3px 10px#3c5680;
 }
