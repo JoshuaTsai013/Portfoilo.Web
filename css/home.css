@@ -8,16 +8,15 @@ html {
 }
 
 .main-btn {
-    position: absolute;
+    /* position: absolute;
     top: 45%;
-    left: 9%;
+    left: 9%; */
     height: 40px;
     width: 400px;
     border-radius: 30px;
     padding: 10px 20px;
     background-color: #F9F5EB;
     box-shadow: 2px 3px 2px#87a4ce;
-
 
     font-family: 'Audiowide', sans-serif;
     font-size: 30px;
@@ -28,10 +27,10 @@ html {
 }
 
 .home-img {
-    position: absolute;
-    width: 40%;
+    /* position: absolute;
+    width: 60%;
     top: 23%;
-    right: 8%;
+    right: 8%; */
     filter: drop-shadow(1px 2px 2px#87a4ce)
 }
 

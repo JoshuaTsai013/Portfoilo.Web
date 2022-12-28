@@ -25,24 +25,32 @@
     
     
 </head>
-<body>
-    <header class="color-beige container-fluid p-0">
+    <div id="icon-area">
+        <a href="index.html" id="icon-img"><img src="img/icon2.PNG" alt="icon" width="150px"></a>
+    </div>
 
-        <div id="icon-area">
-            <a href="index.html" id="icon-img"><img src="img/icon2.PNG" alt="icon" width="150px"></a>
-        </div>
-        
-        <div class="row no-gutters color-light-yellow">
-            <div class="col-md-2"></div>
-            <a href="portfoilo.html" class="col-md-2 nav-item nav-inactivate">PORTFOLIO</a>
-            <div class="col-md-1"></div>
-            <a href="shop.html" class="col-md-2 nav-item nav-activate">NFT SHOP</a>
-            <div class="col-md-1"></div>
-            <a href="about.html" class="col-md-2 nav-item nav-activate">ABOUT ME</a>
-            <div class="col-md-2"></div>
-        </div>
-        
-    </header>
+    <!-- 漢堡選單 -->
+    <nav class="navbar navbar-expand-md sticky-top color-light-yellow nav-custom">	
+        <div></div>
+        <button class="navbar-toggler burger-custom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div id="nav-icon3">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+        </button>
+    <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="col-md-1 col-lg-3"></li>
+            <li class="nav-item col-md-3 col-lg-2 color-light-yellow"><a href="portfoilo.html" class="mynav-text nav-activate">PORTFOLIO</a></li>
+            <li class="nav-item col-md-4 col-lg-2 color-light-yellow"><a href="shop.html" class="mynav-text nav-inactivate">NFT SHOP</a></li>
+            <li class="nav-item col-md-3 col-lg-2 color-light-yellow"><a href="about.html" class="mynav-text nav-inactivate">ABOUT ME</a></li>
+            <li class="col-md-1 col-lg-3"></li>
+        </ul> 
+    </div>
+    </nav>
+<body>
     <div class="color-blue">           
         <div class="container">
             <div class="port-title">
@@ -50,18 +58,18 @@
                 用來記錄生活中珍貴的回憶<br>
                 順便做一做可愛的設計
             </div>
-            <div class="grid">
-                <div class="grid-item"><img src="img/portfoilo-img/grid-1.JPG" alt="grid-1" ><p>- 2021 planner -</p></div>
-                <div class="grid-item"><img src="img/portfoilo-img/grid-2.JPG" alt="grid-2" ><p>- ntue dtd camp t-shirt -</p></div>
-                <div class="grid-item"><img src="img/portfoilo-img/grid-3.JPG" alt="grid-3" ><p>- college student -</p></div>
-                <div class="grid-item"><img src="img/portfoilo-img/grid-4.JPG" alt="grid-4" ><p>- happy memories in hsinchu -</p></div>
-                <div class="grid-item"><img src="img/portfoilo-img/grid-5.JPG" alt="grid-5" ><p>- sparkling girl -</p></div>
-                <div class="grid-item"><img src="img/portfoilo-img/grid-6.JPG" alt="grid-6" ><p>- my ootd -</p></div>
+            <div class="row" data-masonry='{"percentPosition": true }'>
+                <div class="col-lg-4 col-md-6 grid-item"><img src="img/portfoilo-img/grid-1.JPG" alt="grid-1" ><p>- 2021 planner -</p></div>
+                <div class="col-lg-4 col-md-6 grid-item"><img src="img/portfoilo-img/grid-2.JPG" alt="grid-2" ><p>- ntue dtd camp t-shirt -</p></div>
+                <div class="col-lg-4 col-md-6 grid-item"><img src="img/portfoilo-img/grid-3.JPG" alt="grid-3" ><p>- college student -</p></div>
+                <div class="col-lg-4 col-md-6 grid-item"><img src="img/portfoilo-img/grid-4.JPG" alt="grid-4" ><p>- happy memories in hsinchu -</p></div>
+                <div class="col-lg-4 col-md-6 grid-item"><img src="img/portfoilo-img/grid-5.JPG" alt="grid-5" ><p>- sparkling girl -</p></div>
+                <div class="col-lg-4 col-md-6 grid-item"><img src="img/portfoilo-img/grid-6.JPG" alt="grid-6" ><p>- my ootd -</p></div>
             </div>
         </div>
     </div>
 
-    <script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 
 <footer>

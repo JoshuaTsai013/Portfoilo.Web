@@ -1,36 +1,32 @@
 .item-area{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;
+    width: 100%; */
     padding-top: 60px;
     background-image: url("../img/IMG_5748.PNG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top ;
-    background-size: 1160px;
+    background-size: 100%;
 }
 
-.item {
-    width: 320px;
-    height: 400px;
-    margin-bottom: 80px;
+.item { 
+    margin:0 auto 80px ;
     background-color: #B1D4F4;
     box-shadow: 10px 7px 7px#3c5680;
 }
 
 .shop-img{
+    width: auto;
     display: flex;
 }
 
 .shop-img :hover{
-    /* border: 1px solid #4775A0;
-    border-radius: 1px; */
     scale: 1.15;
     transition: 0.3s;
 }
 .shop-img :not(:hover){
-
     transition: 0.2s linear;
 }
 
