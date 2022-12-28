@@ -36,7 +36,7 @@ html{
 }
 
 #icon-img {
-    width: 170px;
+    width: 150px;
     height: 1px;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -53,16 +53,21 @@ html{
     transition: 1s;
 }
 
+.burger-custom {
+    
+}
+
 .nav-custom {
 
     height: 70px;
     margin-left: 0;
+    position: sticky;
 
 }
 
 .mynav-text{
     display: block;
-    width: 165px;
+    width: 185px;
     height: 70px;
     font-family: 'Righteous', sans-serif;
 
