@@ -50,7 +50,7 @@ html{
     position: absolute;
     height: 8px;
     width: 80%;
-    background: #d3531a;
+    background: #FDB663;
     border-radius: 8px;
     opacity: 1;
     left: 0;
@@ -66,17 +66,17 @@ html{
   
   /* Icon 3 */
   
-#nav-icon3 span:nth-child(1) {
-    top: 0px;
-}
+  #nav-icon3 span:nth-child(1) {
+    top: 3px;
+  }
   
-#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-    top: 16px;
-}
+  #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+    top: 19px;
+  }
   
-#nav-icon3 span:nth-child(4) {
-    top: 32px;
-}
+  #nav-icon3 span:nth-child(4) {
+    top: 35px;
+  }
   
 #nav-icon3.open span:nth-child(1) {
     top: 18px;
