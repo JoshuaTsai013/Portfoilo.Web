@@ -41,3 +41,50 @@
     height: 100%;
     box-shadow: 2px 3px 10px#3c5680;
 }
+
+.container-intro{
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.61);
+  }
+  
+  .container-intro:hover .overlay {
+    opacity: 1;
+  }
+
+  .text-total {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 65%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .text-small {
+    color: white;
+    font-size: 15px;
+    margin: 0px 0 5% 0;
+  }
+
+  .text-title { 
+    margin: 4% 0 10% 0;
+  }
