@@ -74,6 +74,10 @@
     text-align: center;
     line-height: 70px;
     color: #4775A0;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
 }
 
 .blank-text-bar{
@@ -108,7 +112,6 @@
     border-radius: 40px;
     margin-top: 20px;
     background-color: #B1D4F4;
-
 }
 
 .contact-me-block{
@@ -158,6 +161,10 @@
     color: #4775A0;
     line-height: 22px;
     margin: 0 0 15px 10px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
 }
 
 textarea {
@@ -255,10 +262,20 @@ input[type=submit] {
         font-size: 20px;
         line-height: 70px;
     }
-    .blank-text-bar{
+    .blank-text-bar {
         margin-top: 80px;
     }
-    .blank-bar{
+    .contact-me-row {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+    .blank-bar {
         height: 80px;
+    }
+    .contact-me-bar {
+        margin-left: 50px;
+    }
+    .about-bar {
+        margin-right: 40px;
     }
     }

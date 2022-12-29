@@ -41,4 +41,8 @@
     padding: 20px 30px;
     margin: 0;
     /* text-shadow: 0.5px 0.5px 1px white, -1px -1px 1px#444; */
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
 }
