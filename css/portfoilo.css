@@ -1,8 +1,8 @@
 .port-title{
     width: 100%;
-    height: 210px;
+    height: 170px;
     padding-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: #67AAE8;
 
     font-family: 'Noto Sans',sans-serif;
@@ -18,6 +18,16 @@
     -moz-user-select:none;
     -o-user-select:none;
     user-select:none;
+}
+
+.text-custom {
+    color: #2f88c5;
+    font-size: 16px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
 .grid{
@@ -98,3 +108,12 @@
   .text-title { 
     margin: 4% 0 10% 0;
   }
+
+  @media (min-width:768px) {
+    .text-custom { 
+        display: none;
+    }
+    .port-title{
+      margin-bottom: 50px;
+    }
+}
