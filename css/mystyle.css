@@ -17,6 +17,11 @@ html{
     background-color: #67AAE8;   
 }
 
+.color-light-blue {
+    background-color: #BFDAFD;   
+}
+
+
 .color-beige {
     background-color: #F9F5EB;
 }
@@ -50,7 +55,7 @@ html{
     position: absolute;
     height: 8px;
     width: 80%;
-    background: #d3531a;
+    background: #FDB663;
     border-radius: 8px;
     opacity: 1;
     left: 0;
@@ -66,17 +71,17 @@ html{
   
   /* Icon 3 */
   
-#nav-icon3 span:nth-child(1) {
-    top: 0px;
-}
+  #nav-icon3 span:nth-child(1) {
+    top: 3px;
+  }
   
-#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-    top: 16px;
-}
+  #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+    top: 19px;
+  }
   
-#nav-icon3 span:nth-child(4) {
-    top: 32px;
-}
+  #nav-icon3 span:nth-child(4) {
+    top: 35px;
+  }
   
 #nav-icon3.open span:nth-child(1) {
     top: 18px;
@@ -145,7 +150,7 @@ html{
 
 .mynav-text{
     display: block;
-    width: 185px;
+    width: 165px;
     height: 70px;
     font-family: 'Righteous', sans-serif;
 
@@ -191,7 +196,7 @@ footer {
     width: 100%;
     height: 100px;
     margin: 0;
-    padding: 25px 14% 18px;
+    padding: 25px 6% 18px;
     background-color: #F9F5EB;
 
     display: flex;
@@ -221,5 +226,10 @@ footer {
     width: 35px;
     height: 35px;
     margin: auto 13px auto 0;
+}
+@media (min-width:768px) {
+    .footer {
+        padding: 25px 14% 18px;
+    }
 }
 

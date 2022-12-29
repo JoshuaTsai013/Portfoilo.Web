@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/about.css">
 
     <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/mystyle.js"></script>
 
 </head>
 <body>
@@ -50,41 +51,48 @@
             
     <div class="color-blue">
         <div class="container">
-            <div class="item-area">
-                <div class="title-row">
-                    <div class="title-text">ABOUT ME</div>
-                    <div class="about-bar"></div>
+            
+                <div class="title-row row">
+                    <div class="title-text col-md-4 col-xl-3">ABOUT ME</div>
+                    <div class="about-bar col-md-8 col-xl-9 hide-in-mobile"></div>
                 </div>
-                <div class="introduce-row">
-                    <img src="img/IMG_0417.png" alt="alice" class="about-img">
-                    <div class="introduce">
+                <div class="introduce-row row">
+                    <div class="col-sm-0 col-md-0 col-lg-1"></div>
+                    <div class="col-sm-12 col-md-6 col-lg-5"><img src="img/IMG_0417.png" alt="alice" class="about-img"></div>
+                    <div class="col-sm-12 col-md-6 col-lg-5"><div class="introduce">
                         <div class="introduce-bar">Hello!! My name is Alice Chu~</div>
                         <div class="introduce-bar">Digital Design Student from Taiwan</div>
                         <div class="introduce-bar">Illustrator / Graphic Designer</div>
-                    </div>
+                    </div></div>
+                    <div class="col-sm-0 col-md-0 col-lg-1"></div>
                 </div>
+
                 <div class="blank-text-bar">希望你喜歡我記錄生活的方式<br>也可以讓我練習似顏繪~</div>
-                <div class="title-row">
-                    <div class="contact-me-bar"></div>
-                    <div class="title-text">CONTACT ME</div>    
+                
+                <div class="title-row row">
+                    <div class="contact-me-bar col-md-8 col-xl-8 hide-in-mobile"></div>
+                    <div class="title-text col-md-4 col-xl-4">CONTACT ME</div>
                 </div>
-                <div class="contact-me-row">
-                    <div class="contact-me-block">
-                        <div class="contact-info"><img src="img/home-btn/home-ig.PNG" alt="" class="info-img"><p class="info-text">Instagram:   @alice__pig</p></div>
-                        <div class="contact-info"><img src="img/home-btn/home-mail.PNG" alt="" class="info-img"><p class="info-text">Mail:   chienyi.alice@gmail.com</p></div>
-                        <div class="contact-info"><img src="img/home-btn/home-sea.PNG" alt="" class="info-img"><p class="info-text">OpenSea:   Alice__pig</p></div>
+
+                <div class="contact-me-row row">
+                    <div class="contact-me-block col-lg-6">
+                        <div class="contact-info"><img src="img/home-btn/home-ig.PNG" alt="ig" class="info-img"><p class="info-text">Instagram:   @alice__pig</p></div>
+                        <div class="contact-info"><img src="img/home-btn/home-mail.PNG" alt="mail" class="info-img"><p class="info-text">Mail:   chienyi.alice@gmail.com</p></div>
+                        <div class="contact-info"><img src="img/home-btn/home-sea.PNG" alt="opensea" class="info-img"><p class="info-text">OpenSea:   Alice__pig</p></div>
                     </div>
-                    <div class="message-block">
+                    <div class="message-block col-lg-6">
                         <p>Leave a message</p>
                         <textarea name="comments" rows="5" cols="5"></textarea>
                         <input type="submit" value="Submit">
                     </div>
                 </div>
                 <div class="blank-bar"></div>
-            </div>
+            
         </div>
     </div>
 </div>
+
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 
